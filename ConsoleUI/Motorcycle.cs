@@ -18,12 +18,12 @@ namespace ConsoleUI
 
         public override void DriveVirtual()
         {
-            Console.WriteLine("This is from the direved class overide...");
+            Console.WriteLine("This is from the derived class virtual...");
         }
 
         public bool HasCart { get; set; }
-        public override string Make { get; set; }
-        public override string Model { get; set; }
-        public override int Year { get; set; }
+        //public override string Make { get; set; }
+        //public override string Model { get; set; }
+        //public override int Year { get; set; }
     }
 }

@@ -15,8 +15,8 @@ namespace ConsoleUI
         }
 
 
-        public abstract string Make { get; set; }
-        public abstract string Model { get; set; }
-        public abstract int Year { get; set; }
+        public string Make { get; set; }
+        public string Model { get; set; }
+        public int Year { get; set; }
     }
 }
