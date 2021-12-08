@@ -22,5 +22,8 @@ namespace ConsoleUI
         }
 
         public bool HasCart { get; set; }
+        public override string Make { get; set; }
+        public override string Model { get; set; }
+        public override int Year { get; set; }
     }
 }
